@@ -48,12 +48,12 @@ function goThroughOrders()
 }
 
 var button = buttons.ActionButton({
-  id: "mozilla-link",
-  label: "Visit Mozilla",
+  id: "scan-orders",
+  label: "Scan Aliexpress orderlist",
   icon: {
-    "16": "./icon-16.png",
-    "32": "./icon-32.png",
-    "64": "./icon-64.png"
+    "16": "./aliexpress_fb_ogp.png",
+    "32": "./aliexpress_fb_ogp.png",
+    "64": "./aliexpress_fb_ogp.png"
   },
     onClick: goThroughOrders
 });
